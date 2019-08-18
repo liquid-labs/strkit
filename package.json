@@ -1,0 +1,27 @@
+{
+  "name": "@liquid-labs/strkit",
+  "version": "1.0.0-alpha.0",
+  "description": "String utilities for go.",
+  "main": "index.js",
+  "scripts": {
+    "build": "catalyst-scripts build",
+    "pretest": "catalyst-scripts pretest",
+    "test": "catalyst-scripts test",
+    "lint": "catalyst-scripts lint",
+    "lint-fix": "catalyst-scripts lint-fix",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Liquid-Labs/strkit.git"
+  },
+  "author": "Zane Rockenbaugh <zane@liquid-labs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Liquid-Labs/strkit/issues"
+  },
+  "homepage": "https://github.com/Liquid-Labs/strkit#readme",
+  "devDependencies": {
+    "@liquid-labs/catalyst-scripts": "^1.0.0-alpha.22"
+  }
+}
